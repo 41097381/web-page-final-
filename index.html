@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Alchemist</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+		<style type="text/css">
+
+
+
+		div{
+			margin: auto;
+			width: 80% ;
+		}
+		
+		
+
+		.flashit{
+			animation: flash linear 1s infinite;
+		}
+		@keyframes flash{
+			0% { opacity: 1; }
+			50% { opacity: .1; }
+			100% { opacity: 1; }
+		}
+		
+		
+		.pulseit{
+			animation: pulse linear 1s infinite;
+		}
+		@keyframes pulse {
+			0% { width:200px; }
+			50% { width:240px;  }
+			100% { width:200px;  }
+		}
+		
+		.deck {overflow:hidden}
+		.deck img {position:relative; float:left;  width:450px; height:600px}
+		.deck img + img {margin-left: -300px;}
+		.deck img:hover {z-index:9999; border:1px solid red; background: pink}
+		
+		
+		</style>
+	</head>
+
+	<body>
+
+		<div></div>
+
+		<h1>The Alchemist</h1>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="illustration.html">Illustration</a></li>
+  <li><a href="blurb.html">Blurb</a></li>
+  <li><a href="reviews.html">Reviews</a></li>
+</ul>
+
+		
+
+
+		<h2>The Author</h2>
+
+	<img src="images/book.jpg"width="326" height="499" style="display:block; margin:0 auto 0 auto"/>
+	<br>
+	<br>
+	
+	<p>
+		<img src="images/paulo-1.png"width="446" height="446" style="float:left"/>
+		Paulo Coelho de Souza is a Brazilian lyricist and novelist. He is the recipient of numerous international awards, amongst them the Crystal Award by the World Economic Forum. His novel The Alchemist has been translated into 80 languages.
+		Paulo Coelho was born in Brazil and attended a Jesuit school. As a teenager, Coelho wanted to become a writer. Upon telling his mother this, she responded, "My dear, your father is an engineer. He's a logical, reasonable man with a very clear vision of the world. Do you actually know what it means to be a writer?" At 17, Coelho's introversion and opposition to following a traditional path led to his parents committing him to a mental institution from which he escaped three times before being released at the age of 20. Born into a Catholic family, his parents were strict about the religion and faith.Coelho later remarked that "It wasn't that they wanted to hurt me, but they didn't know what to do... They did not do that to destroy me, they did that to save me." At his parents' wishes, Coelho enrolled in law school and abandoned his dream of becoming a writer. One year later, he dropped out and lived life as a hippie, traveling through South America, North Africa, Mexico, and Europe and started using drugs in the 1960s.Upon his return to Brazil, Coelho worked as a songwriter, composing lyrics for Elis Regina, Rita Lee, and Brazilian icon Raul Seixas. Composing with Raul led to Coelho being associated with magic and occultism, due to the content of some songs. In 1974, Coelho was arrested for "subversive" activities by the ruling military government, who had taken power ten years earlier and viewed his lyrics as left-wing and dangerous. Coelho also worked as an actor, journalist, and theatre director before pursuing his writing career.
+
+
+	</p>
+	<h2>Other Books</h2>
+	<div class="deck">
+	<img src="images/a.jpg"/> 
+	<img src="images/d.jpg"/>
+	<img src="images/e.jpg"/>
+	<img src="images/z.jpg"/>
+	<img src="images/book.jpg"/>
+
+	
+</div>
+
+		
+
+		<p> "You will never be able to escape from your heart. So it's better to listen to what it has to say. That way, you'll never have to fear an unanticipated blow."
+
+		</p>
+<h2 class="flashit"> listen to your heart </h2>
+
+		<img class="pulseit" src="images/heart light11.jpg" alt="chapter 3">
+
+
+
+
+
+		
+
+
+	</body>
+
+</html>
